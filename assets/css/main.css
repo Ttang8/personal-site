@@ -3820,3 +3820,13 @@
 	text-align: center;
 	padding-top: 1em;
 }
+
+.underline:hover {
+	/* text-decoration: none;
+  border-bottom: 10px solid white; */
+	text-decoration: underline;
+}
+
+.skills {
+	font-size: 7rem;
+}
