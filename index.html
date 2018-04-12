@@ -79,10 +79,10 @@
 								</div>
 							</header>
 							<ul class="icons major">
-								<li><a href="https://github.com/Ttang8" target="_blank"><i class="icon fa-github major style2"><span class="label">Lorem</span></i></a></li>
-								<li><a href="https://www.linkedin.com/in/terrence-tang/" target="_blank"><i class="icon fa-linkedin-square major style2"><span class="label">Lorem</span></i></a></li>
-								<li><a href="images/resume_ps.pdf" target="_blank"><i class="icon fa-file-pdf-o major style2" ><span class="label">Lorem</span></i></a></li>
-								<li><a href="mailto:thtang28@gmail.com" ><i class="icon fa-envelope major style2" ><span class="label">Lorem</span></i></a></li>
+								<li><a href="https://github.com/Ttang8" target="_blank"><i class="icon fa-github major style2"><span class="label">GitHub</span></i></a></li>
+								<li><a href="https://www.linkedin.com/in/terrence-tang/" target="_blank"><i class="icon fa-linkedin-square major style2"><span class="label">LinkedIn</span></i></a></li>
+								<li><a href="images/resume_ps.pdf" target="_blank"><i class="icon fa-file-pdf-o major style2" ><span class="label">Resume</span></i></a></li>
+								<li><a href="mailto:thtang28@gmail.com" ><i class="icon fa-envelope major style2" ><span class="label">Email</span></i></a></li>
 							</ul>
 						</div>
 					</section>
@@ -94,22 +94,37 @@
 							<div class="image"><a href="http://www.iso100.us/#/" target="_blank"><img src="images/iso100.png" alt="" /></a></div><div class="content">
 								<h2 class="underline"><a href="http://www.iso100.us/#/" target="_blank">Iso100</a></h2>
 								<p>A full-stack, single-page, web application. Inspired by Flickr, Iso100 allows users to organize and share their photos with the community.<br />
-									Uses Ruby on Rails for back end and React.js/Redux for the front-end.</p>
+									Uses Ruby on Rails for back end and React.js/Redux for the front-end.<br /><br />
+									- Used BCrypt to implement user authentication in order to ensure users can only edit their own images and albums. Passwords
+									are not saved in the database.<br />
+									- Optimized unnecessary pings to the database using Active Record on the back end to search images via their tags with querying
+									and join tables.<br />
+									- Structured front-end state to have comments and tags nested under photos to allow easy display, creation, and deletion.<br />
+									</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><a href="https://ttang8.github.io/Dodge-A-Wrench/" target="_blank"><img src="images/dodge.png" alt="" /></a></div><div class="content">
 								<h2 class="underline"><a href="https://ttang8.github.io/Dodge-A-Wrench/" target="blank">Dodge-A-Wrench</a></h2>
 								<p>An arcade browser game based off the popular TI-83 calculator game, Avalanche.  A player is controlled left and right avoiding thrown wrenches.
-Uses Vanilla Javascript, HTML Canvas, CSS.
-</p>
+									Uses Vanilla Javascript, HTML Canvas, CSS.<br /><br />
+									- Improved on original game with the addition of powerups in the form of falling orbs that allow player survive an extra wrench hit. <br />
+									- Created custom math algorithm that dynamically increases difficulty as time passes. (objects fall faster, probability of wrenches and powerup increases, and player movement increases).
+								</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><a href="https://ttang8.github.io/Ka-Ching/" target="_blank"><img src="images/kaching.png" alt="" /></a></div><div class="content">
 								<h2 class="underline"><a href="https://ttang8.github.io/Ka-Ching/" target="_blank">Ka-Ching</a></h2>
-								<p>Mobile application allowing users to sell and buy items from areas nearby. Uses React Native/Redux, Node.js, and Express with Mongoose with MongoDB.
-</p>
+								<p>Mobile application allowing users to sell and buy items from areas nearby. <br />
+									Uses React Native/Redux, Node.js, and Express with Mongoose with MongoDB.<br /><br />
+									- Utilized React Native navigator for geolocation along with Google map api to locate user in order to show items available to buy
+									near them. Also allows the user to choose a location to sell their own items via the map.<br />
+									- Implemented React Navigation library to link all components via tabs and stack navigation to get the smooth mobile app swipe
+									animations and to achieve user friendly direction navigating through the app.<br />
+									- Created custom route calls and controller actions in the back end in conjunction with geolocation to query the correct items to
+									display in the users’ interest page and to optimize the data sending to the front-end.
+								</p>
 							</div>
 						</section>
 					</section>
@@ -147,12 +162,12 @@ Uses Vanilla Javascript, HTML Canvas, CSS.
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+								<h2>Contact Me</h2>
+								<p>Feel free to contact me through LinkedIn, Email, or phone. <br />
+									Email: <a class ="underline" href="mailto:thtang28@gmail.com">Thtang28@gmail.com</a><br />
+									Phone: (415)203-5186</p>
 							</header>
 							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
 							</ul>
 						</div>
 					</section>
@@ -160,14 +175,13 @@ Uses Vanilla Javascript, HTML Canvas, CSS.
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							<li><a href="https://github.com/Ttang8" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/terrence-tang/" target="_blank" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
+							<li><a href="images/resume_ps.pdf" target="_blank" class="icon fa-file-pdf-o"><span class="label">resume</span></a></li>
+							<li><a href="mailto:thtang28@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Terrence Tang</li>
 						</ul>
 					</footer>
 
