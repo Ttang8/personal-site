@@ -2,4 +2,4 @@ Personal Site for Terrence Tang
 
 [Link][site]
 
-[site]:www.terrencetang.online
+[site]:http://terrencetang.online
